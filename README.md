@@ -1,19 +1,19 @@
 # randimggen
-Random image generator
 
 This adds a function that generates a random image using the Pillow library. The function takes in a width and a height, and generates an image with random pixel values.
 
-To use the function, you will need to install the Pillow library by running pip install pillow.
+To use the function, you will need to install the Pillow library by running 
+
+> pip install pillow.
 
 ## Usage:
+ from random_image_generator import generate_random_image
 
-> from random_image_generator import generate_random_image
+# Generate a random image with a width of 200 and a height of 100
+  img = generate_random_image(200, 100)
 
-> # Generate a random image with a width of 200 and a height of 100
-> img = generate_random_image(200, 100)
-
-> # Save the image to a file
-> img.save('random.png')
+ # Save the image to a file
+ img.save('random.png')
 
 # Implementation details:
 
